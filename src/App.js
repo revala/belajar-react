@@ -5,6 +5,7 @@ import NavigationBar from './components/NavigationBar';
 import BestGame from './components/BestGame';
 import TrendingGame from './components/TrendingGame';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 import "./style/landingPage.css"
 
@@ -26,6 +27,10 @@ function App() {
 
     <div className="contact">
       <Contact />
+    </div>
+
+    <div className="footer">
+      <Footer />
     </div>
     </div>
     
